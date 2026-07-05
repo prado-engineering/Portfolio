@@ -7,30 +7,31 @@ export default async function Header({ locale }: { locale: string }) {
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 bg-navy-950/75 backdrop-blur-md border-b border-navy-800/50">
-      <div className="max-w-5xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12 h-16 flex items-center justify-between gap-2 sm:gap-4">
         
         {/* Left: Name / Logo */}
         <div className="flex-shrink-0">
-          <Link href={`/${locale}`} className="text-navy-100 font-bold tracking-tight text-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
-            Vinicius Prado
+          <Link href={`/${locale}`} className="text-navy-100 font-bold tracking-tight text-sm sm:text-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
+            <span className="block sm:hidden">V. Prado</span>
+            <span className="hidden sm:block">Vinicius Prado</span>
           </Link>
         </div>
 
         {/* Center: Navigation Links */}
-        <nav className="hidden md:flex items-center space-x-8">
-          <Link href={`/${locale}/about`} className="text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
+        <nav className="flex items-center space-x-3 sm:space-x-8">
+          <Link href={`/${locale}/about`} className="text-xs sm:text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
             {t('about')}
           </Link>
-          <Link href={`/${locale}#experience`} className="text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
+          <Link href={`/${locale}#experience`} className="text-xs sm:text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
             {t('experience')}
           </Link>
-          <Link href={`/${locale}#projects`} className="text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
+          <Link href={`/${locale}#projects`} className="text-xs sm:text-sm font-medium text-navy-400 hover:text-navy-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-navy-950">
             {t('projects')}
           </Link>
         </nav>
 
         {/* Right: Social & Language Switcher */}
-        <div className="flex items-center justify-end flex-shrink-0 space-x-4">
+        <div className="flex items-center justify-end flex-shrink-0 space-x-2 sm:space-x-4">
           
           {/* Command Palette Cue */}
           <div className="hidden xl:flex flex-shrink-0 items-center space-x-2 bg-navy-900/50 border border-navy-800 rounded-md px-3 py-1.5 text-xs text-navy-400 cursor-text hover:bg-navy-800/50 hover:text-navy-300 transition-colors">

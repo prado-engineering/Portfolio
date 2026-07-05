@@ -86,8 +86,8 @@ export default function AnimatedHero({ translations: t }: HeroProps) {
         {/* Header Section with Integrated Mobile Photo */}
         <div className="flex flex-col-reverse md:flex-row gap-6 md:gap-8 items-start justify-between w-full">
           <div className="space-y-6 max-w-3xl flex-1">
-            <motion.div variants={itemVariants} className="inline-block">
-              <span className="font-mono text-xs font-semibold tracking-widest text-cyan-400 uppercase bg-cyan-400/10 px-3 py-1.5 rounded-full border border-cyan-400/20 backdrop-blur-sm">
+            <motion.div variants={itemVariants} className="inline-block max-w-full">
+              <span className="font-mono text-[9px] xs:text-[10px] sm:text-xs font-semibold tracking-normal xs:tracking-wider sm:tracking-widest text-cyan-400 uppercase bg-cyan-400/10 px-2 py-1 xs:px-3 xs:py-1.5 rounded-full border border-cyan-400/20 backdrop-blur-sm whitespace-normal sm:whitespace-nowrap inline-flex items-center text-center leading-normal">
                 {t.badge}
               </span>
             </motion.div>
