@@ -133,7 +133,7 @@
       "businessProblem": "Coupled staging environments and extreme slowness (5-minute bottleneck) to orchestrate and generate consistent test data for Lending credit tests before running CI/CD pipelines.",
       "technicalSolution": "Replacement of blocking thread pools with native Java 25 Virtual Threads. Implementation of JEP 491 (replacing internal monitors with ReentrantLock to completely eliminate thread pinning) to trigger parallel asynchronous concurrent calls against 37 internal banking APIs. Customization of OpenTelemetry propagators to maintain Trace ID traceability across Virtual Threads in ECS Fargate.",
       "impactMetrics": "Slashed data generation latency from 5 minutes to a surgical average of 7 seconds, maximizing CPU throughput and cutting infrastructure costs.",
-      "mermaidChart": "graph TD\n  A[CI/CD Pipeline] -->|Trigger| B(Data Generator - ECS Fargate)\n  B -->|Virtual Threads| C{37 Internal Banking APIs}\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Lending Test Data]"
+      "mermaidChart": "graph TD\n  A[CI/CD Pipeline] -->|Trigger| B(Data Generator - ECS Fargate)\n  B -->|Virtual Threads| C[37 Internal Banking APIs]\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Lending Test Data]"
     },
     "reactive-banking-harness": {
       "title": "Reactive Banking Test Harness & Chaos Engine | Open-Source",

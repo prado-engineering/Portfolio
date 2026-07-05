@@ -133,7 +133,7 @@
       "businessProblem": "Entornos de desarrollo acoplados y lentitud extrema (embotellamiento de 5 minutos) para orquestar y generar datos de prueba consistentes para pruebas de crédito antes de ejecutar pipelines de CI/CD.",
       "technicalSolution": "Reemplazo de pools de hilos bloqueantes con hilos virtuales nativos de Java 25. Implementación de JEP 491 (reemplazo de monitores internos con ReentrantLock para eliminar por completo el bloqueo de hilos o pinning) para activar llamadas concurrentes asíncronas paralelas contra 37 APIs bancarias internas. Personalización de propagadores OpenTelemetry para mantener la trazabilidad de Trace ID a través de hilos virtuales en ECS Fargate.",
       "impactMetrics": "Reducción de la latencia de generación de datos de 5 minutos a un promedio quirúrgico de 7 segundos, maximizando el rendimiento de la CPU y reduciendo los costos de infraestructura.",
-      "mermaidChart": "graph TD\n  A[Pipeline CI/CD] -->|Gatillo| B(Generador de Datos - ECS Fargate)\n  B -->|Hilos Virtuales| C{37 APIs Bancarias Internas}\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Datos de Prueba de Crédito]"
+      "mermaidChart": "graph TD\n  A[Pipeline CI/CD] -->|Gatillo| B(Generador de Datos - ECS Fargate)\n  B -->|Hilos Virtuales| C[37 APIs Bancarias Internas]\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Datos de Prueba de Crédito]"
     },
     "reactive-banking-harness": {
       "title": "Harnés de Pruebas de Banca Reactiva y Motor de Caos | Código Abierto",
