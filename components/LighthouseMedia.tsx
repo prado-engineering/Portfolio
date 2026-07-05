@@ -1,4 +1,8 @@
 export default function LighthouseMedia() {
+  const basePath = process.env.NEXT_PUBLIC_REPO_NAME 
+    ? `/${process.env.NEXT_PUBLIC_REPO_NAME.replace(/^\//, '')}` 
+    : '';
+
   return (
     <div className="fixed inset-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
       {/* 
@@ -15,7 +19,7 @@ export default function LighthouseMedia() {
         className="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-luminosity bg-navy-950"
         aria-hidden="true"
       >
-        <source src="/videos/lighthouse-storm.mp4" type="video/mp4" />
+        <source src={`${basePath}/videos/lighthouse-storm.mp4`} type="video/mp4" />
       </video>
 
       {/* 

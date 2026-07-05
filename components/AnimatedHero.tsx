@@ -68,6 +68,10 @@ const TraceBackground = () => (
 );
 
 export default function AnimatedHero({ translations: t }: HeroProps) {
+  const basePath = process.env.NEXT_PUBLIC_REPO_NAME 
+    ? `/${process.env.NEXT_PUBLIC_REPO_NAME.replace(/^\//, '')}` 
+    : '';
+
   return (
     <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full min-h-[80vh]">
       <TraceBackground />
@@ -99,9 +103,9 @@ export default function AnimatedHero({ translations: t }: HeroProps) {
 
           {/* Mobile Profile Picture (Visible only on small screens) */}
           <div className="lg:hidden flex-shrink-0 pt-1 sm:pt-0">
-            <div className="relative w-20 h-20 sm:w-24 sm:h-24 aspect-square flex-shrink-0 rounded-full overflow-hidden border border-navy-700 shadow-[0_0_40px_rgba(102,252,241,0.1)] block">
+            <div className="relative w-24 h-24 sm:w-28 sm:h-28 aspect-square flex-shrink-0 rounded-full overflow-hidden border border-navy-700 shadow-[0_0_40px_rgba(102,252,241,0.1)] block">
               <img
-                src="/profile.jpeg"
+                src={`${basePath}/profile.jpeg`}
                 alt="Vinicius Prado Profile"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -160,9 +164,9 @@ export default function AnimatedHero({ translations: t }: HeroProps) {
 
       {/* Profile Picture (Desktop Only) */}
       <div className="hidden lg:flex lg:col-span-4 items-center justify-center xl:justify-end self-start mt-6 z-10 w-full">
-        <div className="relative w-40 h-40 xl:w-48 xl:h-48 aspect-square flex-shrink-0 rounded-full overflow-hidden border border-navy-700 shadow-[0_0_40px_rgba(102,252,241,0.1)] block">
+        <div className="relative w-48 h-48 xl:w-56 xl:h-56 aspect-square flex-shrink-0 rounded-full overflow-hidden border border-navy-700 shadow-[0_0_40px_rgba(102,252,241,0.1)] block">
           <img
-            src="/profile.jpeg"
+            src={`${basePath}/profile.jpeg`}
             alt="Vinicius Prado Profile"
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
           />

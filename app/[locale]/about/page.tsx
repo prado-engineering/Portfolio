@@ -6,6 +6,10 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   const t = await getTranslations("AboutPage");
   const pillars = ["blueprint", "scale", "frontier"];
 
+  const basePath = process.env.NEXT_PUBLIC_REPO_NAME 
+    ? `/${process.env.NEXT_PUBLIC_REPO_NAME.replace(/^\//, '')}` 
+    : '';
+
   return (
     <div className="flex flex-col w-full selection:bg-navy-800 selection:text-navy-100 min-h-screen pt-32 pb-24 relative z-10">
       <main className="max-w-5xl mx-auto px-6 lg:px-12 w-full flex flex-col space-y-16 md:space-y-24">
@@ -14,7 +18,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <header className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-8 md:gap-12 pb-12 border-b border-navy-800/50">
           <div className="relative w-[276px] h-[276px] sm:w-[368px] sm:h-[368px] aspect-square flex-shrink-0 rounded-full overflow-hidden border border-navy-700 shadow-[0_0_40px_rgba(102,252,241,0.1)]">
             <img
-              src="/profile.jpeg"
+              src={`${basePath}/profile.jpeg`}
               alt="Vinicius Prado Profile"
               className="w-full h-full object-cover"
             />
