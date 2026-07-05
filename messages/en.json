@@ -132,12 +132,12 @@
   },
   "ProjectDetails": {
     "data-platform": {
-      "title": "Enterprise Mass Data Generation Platform | Built at Itaú Unibanco",
-      "stack": "Spring Boot 3.x, Java 21, JEP 491, AWS ECS Fargate, OpenTelemetry Context Propagation, Datadog Workflows",
-      "businessProblem": "Coupled staging environments and extreme slowness (5-minute bottleneck) to orchestrate and generate consistent test data for Lending credit tests before running CI/CD pipelines.",
-      "technicalSolution": "Replacement of blocking thread pools with native Java 21 Virtual Threads. Implementation of JEP 491 (replacing internal monitors with ReentrantLock to completely eliminate thread pinning) to trigger parallel asynchronous concurrent calls against 37 internal banking APIs. Customization of OpenTelemetry propagators to maintain Trace ID traceability across Virtual Threads in ECS Fargate.",
-      "impactMetrics": "Slashed data generation latency from 5 minutes to a surgical average of 7 seconds, maximizing CPU throughput and cutting infrastructure costs.",
-      "mermaidChart": "graph TD\n  A[CI/CD Pipeline] -->|Trigger| B(Data Generator - ECS Fargate)\n  B -->|Virtual Threads| C[37 Internal Banking APIs]\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Lending Test Data]"
+      "title": "iTomation Modernization: Enterprise Mass Data Generation Platform | Built at Itaú Unibanco",
+      "stack": "Java 21, Virtual Threads, PES Parallelism, Spring Boot 3.x, Angular 18, JUnit, Jest, Pitest, StrykerJS, Testcontainers, WireMock, LocalStack, Terraform, AWS ECS Fargate, AWS API Gateway, S3, CloudFront, GitHub Actions",
+      "businessProblem": "The legacy platform (iTomation) was a monolithic Python script running purely locally on developers' machines. It forced squads to manually clone and compile code, had countless duplicated API requests due to a lack of shared architecture, and featured a rustic Python UI that only technical staff could operate—creating a severe bottleneck for staging releases.",
+      "technicalSolution": "Overhauled the platform using Domain-Driven Design (DDD) split into core/ and product/ modules, unifying reusable API clients. Built the backend using Java 21 with Spring Boot 3.x and orchestrated 22 complex test profiles (running between 12 and 32 downstream API calls). Solved the 5-minute latency bottleneck by parallelizing requests concurrently using Virtual Threads and Parallel Execution Services (PES) right after a single initial synchronous client ID lookup. The frontend was built with Angular 18 hosted on S3 and CloudFront.",
+      "impactMetrics": "Slashed average test data latency from 5 minutes to 7 seconds. Attained 95% unit test coverage (JUnit) on backend and 92% (Jest) on frontend. Ensured mutation testing standards at 90% (Pitest) and 70% (StrykerJS). Automated infrastructure via Terraform on AWS ECS Fargate with GitHub Actions CI/CD.",
+      "mermaidChart": "graph TD\n  A[Angular 18 Frontend - S3/CloudFront] -->|API Request| B(AWS API Gateway)\n  B -->|VPC Link / NLB| C[Backend - ECS Fargate]\n  C -->|Initial Synchronous Call| D[Client API]\n  D -->|Client ID| E{PES & Virtual Threads Parallelization}\n  E -->|12 to 32 parallel APIs| F[Itaú Microservices]\n  F -->|Consolidated Test Data| G[CI/CD Pipeline]"
     },
     "crq-portal": {
       "title": "CRQ Solutions Portal & First Responder Automation | Built at Itaú Unibanco",

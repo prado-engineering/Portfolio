@@ -132,12 +132,12 @@
   },
   "ProjectDetails": {
     "data-platform": {
-      "title": "Enterprise Mass Data Generation Platform | Construído no Itaú Unibanco",
-      "stack": "Spring Boot 3.x, Java 21, JEP 491, AWS ECS Fargate, OpenTelemetry Context Propagation, Datadog Workflows",
-      "businessProblem": "Ambientes de homologação acoplados e lentidão extrema (gargalo de 5 minutos) para orquestrar e gerar massas de dados consistentes para testes de crédito de Lending antes de rodar os pipelines de CI/CD.",
-      "technicalSolution": "Substituição de pools de threads bloqueantes por Java 21 Virtual Threads nativas. Implementação da JEP 491 (trocando travas internas por ReentrantLock para eliminar completamente o problema de thread pinning) para disparar chamadas concorrentes assíncronas em paralelo contra 37 APIs bancárias internas. Customização de propagadores do OpenTelemetry para manter a rastreabilidade dos Trace IDs entre as Virtual Threads no ECS Fargate.",
-      "impactMetrics": "Derrubou a latência de geração de dados de 5 minutos para uma média cirúrgica de 7 segundos, maximizando o throughput de CPU e cortando custos de infraestrutura.",
-      "mermaidChart": "graph TD\n  A[Pipeline CI/CD] -->|Trigger| B(Gerador de Dados - ECS Fargate)\n  B -->|Virtual Threads| C[37 APIs Bancárias Internas]\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Massa de Dados de Lending]"
+      "title": "iTomation Modernization: Plataforma Corporativa de Geração de Dados Massivos | Construído no Itaú Unibanco",
+      "stack": "Java 21, Virtual Threads, PES Parallelism, Spring Boot 3.x, Angular 18, JUnit, Jest, Pitest, StrykerJS, Testcontainers, WireMock, LocalStack, Terraform, AWS ECS Fargate, AWS API Gateway, S3, CloudFront, GitHub Actions",
+      "businessProblem": "A plataforma legado (iTomation) era uma ferramenta em Python monolítica com execução puramente local nas máquinas dos desenvolvedores. Exigia que as squads clonassem e buildassem o código manualmente, sofria com duplicações infinitas de chamadas às APIs por falta de arquitetura e possuía uma UI rústica em Python que apenas técnicos sabiam operar, virando um enorme gargalo para homologações.",
+      "technicalSolution": "Reconstrução total do sistema utilizando arquitetura DDD (divisão em core/ e produto/), unificando microsserviços reutilizáveis. Desenvolvi o backend em Java 21 com Spring Boot 3.x e orquestrei 22 fluxos complexos (orquestrações contendo de 12 a 32 chamadas em APIs bancárias downstream). A latência caiu de 5 minutos para 7 segundos ao paralelizar todas as requisições usando Virtual Threads e Parallel Execution Services (PES) a partir do ID_Cliente retornado na primeira chamada síncrona. O frontend foi desenvolvido em Angular 18, hospedado estaticamente no S3 + CloudFront.",
+      "impactMetrics": "Latência média de geração de dados reduzida de 5 minutos para 7 segundos. Cobertura de testes unitários em 95% (JUnit) no backend e 92% (Jest) no frontend. Testes de mutação com 90% (Pitest) e 70% (StrykerJS). Infraestrutura automatizada via Terraform no AWS ECS Fargate e CI/CD via GitHub Actions.",
+      "mermaidChart": "graph TD\n  A[Interface Angular 18 - S3/CloudFront] -->|Chamada API| B(AWS API Gateway)\n  B -->|VPC Link / NLB| C[Backend - ECS Fargate]\n  C -->|Primeira chamada síncrona| D[Cliente API]\n  D -->|ID_Cliente| E{Paralelismo PES & Virtual Threads}\n  E -->|12 a 32 APIs concorrentes| F[Microsserviços Itaú]\n  F -->|Massa de Dados consolidada| G[CI/CD Pipeline]"
     },
     "crq-portal": {
       "title": "Portal de Soluções CRQ & Automação First Responder | Construído no Itaú Unibanco",
