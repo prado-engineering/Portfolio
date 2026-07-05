@@ -114,15 +114,15 @@
     "pillars": {
       "blueprint": {
         "title": "Foundations & Family",
-        "content": "My engineering journey started long before my degree in Information Systems. I was always driven by a deep curiosity about how to optimize software so it would never fail. Outside the office, my family is my ultimate foundation. Happily married, sharing my home with our dogs, and preparing to become a father. This personal drive for stability and extreme ownership is exactly what I bring to every system I architect."
+        "content": "My technical curiosity began long before I started my degree in Information Systems. I have always wanted to build solutions, drive quality, and optimize systems so they would never fail. My ultimate foundation is my family. I am happily married, share my home with my wife, our pets, and am currently preparing for the arrival of Hannah, the gift that Jesus gave us. My family forged who I am and drives me daily to be my best version, helping me grow, build responsibility, and stay committed. For every project I start, I give my absolute all and always commit to learning whatever is necessary to achieve mastery in what I deliver."
       },
       "scale": {
         "title": "Scale & Core Banking Ecosystem",
-        "content": "I have spent the last decade building and scaling automation frameworks and developer tooling in highly regulated financial environments, serving top-tier institutions like Itaú, Bradesco, Santander, Banco Original, Rabobank, Cielo, and BV. I worked hands-on in migrating legacy mainframe systems to modern Java, Python, and TypeScript architectures, establishing comprehensive quality gates (Unit, Integration, E2E, and Chaos) for applications used by millions of users daily."
+        "content": "I spent the last decade building and scaling automation frameworks and software systems in highly complex ecosystems like those of banking institutions such as Itaú, Bradesco, Santander, Banco Original, Rabobank, Cielo, and Banco BV. I worked end-to-end in the transition, creation, and evolution of systems toward modern architectures, guaranteeing complete, high-impact deliveries that serve millions of customers daily."
       },
       "frontier": {
         "title": "SRE, Solutions Portal & AI Frontier",
-        "content": "In the Lending community at Itaú, I engineered the CRQ Portal—a static GitHub Pages architecture equipped with Stackspot AI chatbots, QuickSight dashboards, and secure admin proxies—centralizing tooling for 850 active repositories. I built the cloud mass data generation platform (Java 21 Virtual Threads, Spring Boot, and ECS Fargate), slashing latency from 5 minutes to 7 seconds. Additionally, I led AI agent discoveries with Devin.AI and Copilot Agent Mode (pushing coverage to 90%) and architected the 'First Responder' SRE automation flow using Datadog and ServiceNow."
+        "content": "Within the Lending community at Itaú Unibanco, I built the CRQ Portal—a static GitHub Pages architecture equipped with AI chatbots, dashboards, runbooks, and diagnostics—centralizing tooling to support our entire community. I also developed the Solutions Hub (with Java 21, Virtual Threads, Spring Boot, and ECS Fargate), slashing the execution time for test data generation from 5 minutes to 7 seconds. Additionally, I led AI agent discoveries with Devin.AI and Copilot Agent Mode (boosting test coverage to 90% across the community's repositories) and architected the 'First Responder' SRE automation flow using Datadog Workflows and ServiceNow to triage incidents in a few minutes."
       }
     }
   },
