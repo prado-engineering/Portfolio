@@ -6,7 +6,7 @@
   },
   "Hero": {
     "badge": "SOFTWARE ENGINEER & QUALITY ARCHITECT",
-    "headline": "Orchestrating Development, Full-Stack Quality Engineering & GenAI",
+    "headline": "Orchestrating Software Engineering, Full-Stack Quality & GenAI",
     "bio": "As a Software Engineer and Quality Architect, I bridge backend, frontend, and mobile development with software quality across the entire lifecycle. I architect high-performance solutions, build robust applications, design automation frameworks, and construct intelligent GenAI agents to optimize the developer lifecycle.",
     "metrics": {
       "coverageValue": "95%+",
