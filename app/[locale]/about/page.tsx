@@ -58,7 +58,9 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             {t('manifesto.title')}
           </h2>
           <p className="text-sm md:text-base text-navy-200 leading-relaxed font-medium whitespace-pre-line">
-            {t('manifesto.content')}
+            {t.rich('manifesto.content', {
+              bold: (chunks) => <strong className="font-extrabold text-cyan-400">{chunks}</strong>
+            })}
           </p>
         </section>
 
