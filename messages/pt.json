@@ -5,9 +5,9 @@
     "projects": "Projetos"
   },
   "Hero": {
-    "badge": "PRINCIPAL SDET & ARQUITETO DE PLATAFORMA",
-    "headline": "Orquestrando Engenharia de Produtividade, Qualidade & GenAI Corporativo",
-    "bio": "Especializado em Concorrência, Engenharia de Plataforma e Observabilidade Avançada. Utilizo Java 21 Virtual Threads, Datadog Workflows e IA Agêntica (MCP) para blindar a qualidade de software e arquitetar sistemas resilientes que aceleram de minutos para segundos.",
+    "badge": "ENGENHEIRO DE SOFTWARE & ARQUITETO DE QUALIDADE",
+    "headline": "Orquestrando Desenvolvimento, Engenharia de Qualidade Full-Stack e GenAI",
+    "bio": "Engenheiro de Software e Arquiteto de Qualidade, conectando desenvolvimento backend, frontend e mobile com maturidade de testes em todo o ciclo de vida. Escrevo código de produção de alta performance, desenho frameworks de testes automatizados e construo agentes inteligentes de GenAI para otimizar o ciclo de desenvolvimento.",
     "metrics": {
       "coverageValue": "95%+",
       "coverageLabel": "Escala de Cobertura de Código",
@@ -26,21 +26,21 @@
     "roles": {
       "role1": {
         "period": "2020 - Presente",
-        "title": "Principal SDET & Platform Architect • Itaú Unibanco",
-        "description": "Arquitetura de plataformas de alta performance utilizando Java 21 Virtual Threads e Datadog Workflows. Engenharia de Virtualização de Serviços e orquestração de estratégias de GenAI corporativa (MCP).",
-        "skills": "Platform Engineering • GenAI • Java 21 • AWS"
+        "title": "Engenheiro de Software & Arquiteto de Qualidade • Itaú Unibanco",
+        "description": "Minha trajetória no maior banco da América Latina foi marcada pela evolução de Engenheiro e QA de produto até Arquiteto de Software e Qualidade, unindo desenvolvimento de código com maturidade de testes:\n\n• 2026 | Hub de Soluções, Portal CRQ & SRE: Evoluí o backend em um Hub de Soluções e criei o Portal CRQ em GitHub Pages (chatbots integrados ao StackSpot, dashboards QuickSight e controle administrativo com proxy seguro). Desenvolvi o \"First Responder\" no Datadog Workflows e APIs ServiceNow, automatizando a triagem de incidentes de produção de minutos para segundos.\n\n• 2025 | Plataformas Escaláveis & IA: Criei uma plataforma Full-Stack em nuvem (Java 21 Virtual Threads, Spring Boot, Angular, ECS Fargate) que paraleliza chamadas em mais de 30 APIs de crédito, reduzindo a latência de 5 minutos para 7 segundos. Liderei os discoveries do Devin.AI e Copilot Agent Mode, elevando a cobertura para 90%.\n\n• 2023-2024 | Observabilidade & Shift-Left: Desenvolvi soluções de SRE e observabilidade no time de CRQ. Em Empréstimos, liderei maratonas de testes com times de desenvolvimento, elevando a cobertura de 25% para 70%. Desenvolvi virtualizações inteligentes (WireMock/Docker) que auto-recuperam contratos sob instabilidades.\n\n• 2020-2022 | Engenharia & Modernização: Atuei como desenvolvedor e especialista em qualidade nas áreas de Custódia e Renegociação. Coloquei a mão na massa na modernização em Java da calculadora de IOF, traduzindo regras complexas do Mainframe e usando BigDecimal para garantir máxima precisão matemática.",
+        "skills": "Platform Engineering • GenAI • Java 21 • AWS • DataDog • Python • React • Quality Engineering • Software Engineering"
       },
       "role2": {
         "period": "2017 - 2020",
-        "title": "Arquiteto de Automação Sênior • Wipro",
-        "description": "Design e implantação de frameworks globais de automação para clientes bancários internacionais. Liderança em integrações CI/CD e esteiras de qualidade ponta a ponta.",
-        "skills": "Automação • CI/CD • DevOps"
+        "title": "Analista de Automação de Testes • Wipro (Alocado Full no Banco Bradesco)",
+        "description": "Desenvolvi e escalei frameworks de automação de testes de ponta a ponta (E2E) para grandes aplicativos de banco digital (Next Bank) e plataformas de investimento (Ágora Investimentos), com foco em arquitetura mobile core e confiabilidade de APIs:\n\n• Infraestrutura de Automação Mobile: Desenvolvi suítes de testes mobile E2E robustas full stack, integrando grades de execução via Mobile Center para reduzir os tempos de regressão.\n\n• Frameworks Multicamadas: Desenhei e mantive frameworks de testes web escaláveis usando Selenium e LeanFT integrados com validação automatizada de APIs via Rest-Assured.\n\n• Colaboração Técnica: Atuei como ponte técnica de qualidade entre squads de desenvolvimento e áreas de negócio, acelerando os ciclos de release e mantendo uma taxa extremamente baixa de defeitos em produção.",
+        "skills": "Quality Engineering • Automation • Mobile • AWS • Development"
       },
       "role3": {
         "period": "2015 - 2017",
-        "title": "Engenheiro de Software em Teste • RSI / Keeggo",
-        "description": "Desenvolvimento de suítes robustas de testes automatizados para sistemas financeiros. Redução de tempos de regressão manual e implementação de continuous testing.",
-        "skills": "Testes de Software • Sistemas Financeiros • Ágil"
+        "title": "Analista de Automação de Testes & Estagiário • RSI / Keeggo",
+        "description": "Iniciei como estagiário de tecnologia e fui promovido a Analista de Automação devido ao conhecimento técnico aplicado em projetos de grandes clientes (Santander, Rabobank, Itaú, BV, Banco Original e Cielo):\n\n• 2017 | Analista de Automação: Desenvolvi e otimizei fluxos automatizados de ingestão de dados usando Talend ETL para garantir a consistência de massas de teste. Ajudei a construir scripts de regressão de UI web e desktop sob rígidas diretrizes de segurança bancária.\n\n• 2015-2016 | Estagiário de Tecnologia: Gerenciei ferramentas internas otimizando fluxos de trabalho.",
+        "skills": "Test Engineering • Financial Systems • Agile"
       }
     }
   },
@@ -68,15 +68,15 @@
     "groups": {
       "genai": {
         "title": "GenAI & Tecnologias de Ponta",
-        "items": ["Anthropic MCP", "UFG GenAI", "IBM AI", "Quantum Computing"]
+        "items": ["Anthropic MCP (Advanced Topics)", "UFG Especialista GenAI", "IBM GenAI para Líderes"]
       },
       "aws": {
         "title": "Infraestrutura Cloud AWS",
-        "items": ["AWS EKS", "AWS Fargate", "AWS Cloud Quest"]
+        "items": ["AWS EKS (Kubernetes)", "AWS Fargate Containers", "AWS Observabilidade Core"]
       },
       "datadog": {
         "title": "Datadog & SRE Core",
-        "items": ["Datadog Workflows", "Observabilidade Core", "Fundamentos SRE"]
+        "items": ["Datadog Log Management", "Datadog Workflows (SRE)", "Datadog SRE Core"]
       }
     }
   },

@@ -20,13 +20,13 @@ export default async function Experience() {
             <div className="relative z-10 w-4 h-4 rounded-full border-4 border-navy-950 bg-navy-400 group-hover:bg-cyan-400 transition-colors duration-300 shadow-[0_0_0_2px_rgba(56,189,248,0)] group-hover:shadow-[0_0_0_2px_rgba(56,189,248,0.5)] mt-1.5 flex-shrink-0"></div>
             
             <div className="flex flex-col space-y-2 flex-1">
-              <span className="text-sm font-semibold text-navy-500 tracking-widest uppercase">
+              <span className="text-sm font-bold text-pink-400 tracking-widest uppercase font-mono">
                 {t(`roles.${role}.period`)}
               </span>
-              <h3 className="text-xl font-bold text-navy-100 text-balance">
+              <h3 className="text-xl font-bold text-cyan-400 text-balance font-display">
                 {t(`roles.${role}.title`)}
               </h3>
-              <p className="text-navy-400 leading-relaxed text-base">
+              <p className="text-navy-200 leading-relaxed text-base whitespace-pre-line">
                 {t(`roles.${role}.description`)}
               </p>
               <div className="pt-2">

@@ -1,0 +1,147 @@
+{
+  "Nav": {
+    "about": "Sobre",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
+  "Hero": {
+    "badge": "INGENIERO DE SOFTWARE & ARQUITECTO DE CALIDAD",
+    "headline": "Orquestando Desarrollo, Ingeniería de Calidad Full-Stack y GenAI",
+    "bio": "Ingeniero de Software y Arquitecto de Calidad, uniendo desarrollo backend, frontend y móvil con madurez de pruebas en todo el ciclo de vida. Escribo código de producción de alto rendimiento, diseño frameworks de pruebas automatizadas y construyo agentes inteligentes de GenAI para optimizar el ciclo de desarrollo.",
+    "metrics": {
+      "coverageValue": "95%+",
+      "coverageLabel": "Escala de Cobertura de Código",
+      "defectsValue": "7s",
+      "defectsLabel": "Orquestación Asíncrona (de 5m)",
+      "experienceValue": "10+",
+      "experienceLabel": "Años en Arquitectura de Calidad"
+    },
+    "buttons": {
+      "projects": "Inspeccionar Casos Reales",
+      "linkedin": "Conectar en LinkedIn"
+    }
+  },
+  "Experience": {
+    "title": "Experiencia Profesional",
+    "roles": {
+      "role1": {
+        "period": "2020 - Presente",
+        "title": "Ingeniero de Software & Arquitecto de Calidad • Itaú Unibanco",
+        "description": "Mi trayectoria en el banco más grande de América Latina evolucionó desde el desarrollo de software y control de calidad hasta consolidarme como Ingeniero de Software & Arquitecto de Calidad, uniendo la construcción de código y calidad:\n\n• 2026 | Hub de Soluciones, Portal CRQ y SRE: Evolucioné el backend a un Hub de Soluciones y creé el Portal CRQ en GitHub Pages (chatbots integrados a StackSpot, dashboards de QuickSight y panel administrativo con proxy seguro). Diseñé el \"First Responder\" en Datadog Workflows y APIs de ServiceNow, automatizando la clasificación de incidentes en segundos.\n\n• 2025 | Plataformas Cloud e IA: Creé una plataforma Full-Stack en la nube (Java 21 Virtual Threads, Spring Boot, Angular, ECS Fargate) para paralelizar llamadas en más de 30 APIs de crédito, reduciendo la latencia de 5 minutos a 7 segundos. Lideré descubrimientos de Devin.AI y Copilot Agent Mode, elevando la cobertura al 90%.\n\n• 2023-2024 | Observabilidad y Shift-Left: Diseñé soluciones de SRE y telemetría en el equipo de CRQ. Lideré maratones de pruebas en la comunidad de Crédito, elevando la cobertura del 25% al 70%. Desarrollé virtualizaciones de servicios inteligentes (WireMock/Docker) que se autorrecuperan ante inestabilidades de red.\n\n• 2020-2022 | Ingeniería y Modernización: Desarrollé y optimicé software en los equipos de Custodia y Renegociación. Participé activamente en la modernización en Java de la calculadora de IOF, traduciendo reglas complejas de Mainframe a código Java usando BigDecimal para garantizar máxima precisión matemática.",
+        "skills": "Platform Engineering • GenAI • Java 21 • AWS • DataDog • Python • React • Quality Engineering • Software Engineering"
+      },
+      "role2": {
+        "period": "2017 - 2020",
+        "title": "Analista de Automatización de Pruebas • Wipro (Asignado Full en Banco Bradesco)",
+        "description": "Desarrollé y escalé frameworks de automatización de pruebas de extremo a extremo (E2E) para importantes aplicaciones de banca digital (Next Bank) y plataformas de inversión (Ágora Inversiones), enfocándome en arquitectura móvil y confiabilidad de APIs:\n\n• Infraestructura de Automatización Móvil: Diseñé suites de pruebas móviles E2E robustas full stack, integrando grillas de ejecución a través de Mobile Center para reducir ciclos de regresión.\n\n• Frameworks Multicapa: Diseñé y mantuve frameworks de pruebas web escalables con Selenium y LeanFT, integrados con capas de validación de APIs automatizadas mediante Rest-Assured.\n\n• Colaboración Técnica: Actué como puente de calidad técnica entre squads de desarrollo y unidades de negocio, acelerando ciclos de lanzamiento y manteniendo una tasa extremadamente baja de defectos en producción.",
+        "skills": "Quality Engineering • Automation • Mobile • AWS • Development"
+      },
+      "role3": {
+        "period": "2015 - 2017",
+        "title": "Analista de Automatización de Pruebas y Pasante • RSI / Keeggo",
+        "description": "Comencé como pasante de tecnología y fui promovido a Analista de Automatización debido al conocimiento técnico aplicado en proyectos de grandes clientes (Santander, Rabobank, Itaú, BV, Banco Original y Cielo):\n\n• 2017 | Analista de Automatización: Desarrollé y optimicé flujos de ingesta de datos automatizados usando Talend ETL para asegurar consistencia de datos de prueba. Colaboré en la creación de scripts de regresión de UI web y desktop bajo estrictas normas de seguridad bancaria.\n\n• 2015-2016 | Pasante de Tecnología: Administré herramientas internas optimizando flujos de trabajo.",
+        "skills": "Test Engineering • Financial Systems • Agile"
+      }
+    }
+  },
+  "Education": {
+    "title": "Educación Académica",
+    "items": {
+      "postgrad": {
+        "period": "2026 - 2027",
+        "title": "Posgrado en IA Generativa",
+        "institution": "Universidade Federal de Goiás (UFG)",
+        "description": "Plan de estudios especializado centrado en LLMs, IA Agéntica y Arquitectura de Aprendizaje Automático."
+      },
+      "bachelor": {
+        "period": "Completado",
+        "title": "Licenciatura en Sistemas de Información",
+        "institution": "Título Universitario",
+        "description": "Fundamentos básicos en informática, ingeniería de software y arquitectura de sistemas."
+      }
+    }
+  },
+  "Certifications": {
+    "title": "Credenciales y Certificaciones",
+    "button": "Verificar Credenciales en Credly",
+    "link": "https://www.credly.com/users/vinicius-do-prado.1b53b92c/badges",
+    "groups": {
+      "genai": {
+        "title": "IA Generativa y Vanguardia",
+        "items": ["Anthropic MCP (Advanced Topics)", "UFG Especialista GenAI", "IBM GenAI para Líderes"]
+      },
+      "aws": {
+        "title": "Infraestructura en la Nube de AWS",
+        "items": ["AWS EKS (Kubernetes)", "AWS Fargate Containers", "AWS Observabilidad Core"]
+      },
+      "datadog": {
+        "title": "SRE y Observabilidad Principal",
+        "items": ["Datadog Log Management", "Datadog Workflows (SRE)", "Datadog SRE Core"]
+      }
+    }
+  },
+  "Projects": {
+    "title": "Proyectos Destacados",
+    "filters": {
+      "all": "Todos",
+      "private": "Arquitecturas Empresariales (Privado)",
+      "public": "Frameworks de Código Abierto (Público)"
+    },
+    "enterpriseBadge": "Caso de Estudio Empresarial | Desarrollado en Itaú Unibanco",
+    "items": {
+      "project1": {
+        "title": "Plataforma de Generación de Datos",
+        "description": "Diseño de un backend de alto rendimiento utilizando Java 21 Virtual Threads y Parallel Execution Services para orquestar payloads en 37 microservicios. Reducción de la latencia de 5 minutos a un promedio de 7 segundos.",
+        "tags": "Java 21 • Virtual Threads • PES • AWS ECS Fargate",
+        "type": "private"
+      },
+      "project2": {
+        "title": "Lighthouse y Primer Respondedor",
+        "description": "Un centro centralizado de Observabilidad y SRE que integra dashboards de Datadog y AWS QuickSight en una interfaz de usuario receptiva. Automatización de incidentes implementada con Datadog Workflows.",
+        "tags": "Datadog Workflows • Observability • ServiceNow • GenAI",
+        "type": "private"
+      },
+      "project3": {
+        "title": "Generador de Datos de Prueba de Código Abierto",
+        "description": "Una utilidad CLI de código abierto para generar datos simulados masivos y compatibles para pruebas de rendimiento. Crea esquemas en varias bases de datos en segundos.",
+        "tags": "TypeScript • CLI • Node.js • Faker.js",
+        "type": "public"
+      }
+    }
+  },
+  "AboutPage": {
+    "title": "Sobre Mí",
+    "pillars": {
+      "blueprint": {
+        "title": "El Plan y Los Cimientos",
+        "content": "Mi viaje en la tecnología comenzó mucho antes de mi educación formal. Empezó con una profunda curiosidad sobre cómo el software se podía optimizar y probar para que nunca fallara. Esta pasión me llevó a estudiar la Licenciatura en Sistemas de Información, sentando las bases de ingeniería para una carrera dedicada a la resiliencia del software. Más allá del código, mi mayor cimiento es mi familia. Estoy felizmente casado, comparto mi hogar con nuestros queridos perros y actualmente me preparo para mi proyecto más importante: ser padre. Este impulso personal de estabilidad y crecimiento se refleja directamente en mi forma de trabajar: con extrema responsabilidad, visión a largo plazo y dedicación absoluta."
+      },
+      "scale": {
+        "title": "La Escala y El Ecosistema de la Banca Principal",
+        "content": "Durante la última década, he construido y escalado frameworks de automatización de pruebas de extremo a extremo (E2E) de nivel empresarial y sistemas de productividad en los entornos financieros y bancarios más complejos de América Latina. Mi carrera se ha forjado dentro de instituciones financieras de primer nivel y consultorías de élite, incluyendo Itaú, Bradesco, Santander, Banco Original, Rabobank, Cielo, Banco BV, Wipro y RSI. Navegar por estos ecosistemas altamente regulados requirió una profunda fluidez en ingeniería políglota. Dominé arquitecturas de automatización multicapa en Java, Python, Kotlin y Swift, garantizando despliegues sin interrupciones, integraciones de API a prueba de balas y escalando matrices de prueba para aplicaciones utilizadas por millones de usuarios diariamente."
+      },
+      "frontier": {
+        "title": "La Arquitectura y La Frontera de la IA Generativa",
+        "content": "Hoy, dentro de la comunidad de Crédito en Itaú Unibanco, opero como Especialista en Productividad y Calidad de Ingeniería. Me especializo en romper cuellos de botella críticos en la infraestructura y optimizar sistemas distribuidos concurrentes. Un excelente ejemplo fue el diseño de una plataforma de generación de datos utilizando Java 21, Virtual Threads y Parallel Execution Services en AWS ECS Fargate, que paralelizó 37 APIs bancarias y redujo la latencia de creación de datos de 5 minutos a un promedio de 7 segundos. Mi misión es liderar los movimientos shift-left y shift-right, ya sea migrando 115 repositorios complejos a un pipeline moderno en menos de dos semanas o construyendo automatizaciones de incidentes a nivel de todo el banco con Datadog Workflows. Actualmente cursando un posgrado en IA Generativa en la UFG, lidero el descubrimiento y la integración empresarial de flujos de trabajo de Agentes de IA, integrando herramientas como Devin.AI, Model Context Protocol (MCP) y GitHub Copilot en el ciclo de vida del desarrollo para multiplicar la velocidad del equipo y garantizar la máxima excelencia en el software."
+      }
+    }
+  },
+  "ProjectDetails": {
+    "data-platform": {
+      "title": "Plataforma de Generación de Datos Masivos Empresariales | Desarrollado en Itaú Unibanco",
+      "stack": "Spring Boot 4.x, Java 25, JEP 491, AWS ECS Fargate, OpenTelemetry Context Propagation, Datadog Workflows",
+      "businessProblem": "Entornos de desarrollo acoplados y lentitud extrema (embotellamiento de 5 minutos) para orquestar y generar datos de prueba consistentes para pruebas de crédito antes de ejecutar pipelines de CI/CD.",
+      "technicalSolution": "Reemplazo de pools de hilos bloqueantes con hilos virtuales nativos de Java 25. Implementación de JEP 491 (reemplazo de monitores internos con ReentrantLock para eliminar por completo el bloqueo de hilos o pinning) para activar llamadas concurrentes asíncronas paralelas contra 37 APIs bancarias internas. Personalización de propagadores OpenTelemetry para mantener la trazabilidad de Trace ID a través de hilos virtuales en ECS Fargate.",
+      "impactMetrics": "Reducción de la latencia de generación de datos de 5 minutos a un promedio quirúrgico de 7 segundos, maximizando el rendimiento de la CPU y reduciendo los costos de infraestructura.",
+      "mermaidChart": "graph TD\n  A[Pipeline CI/CD] -->|Gatillo| B(Generador de Datos - ECS Fargate)\n  B -->|Hilos Virtuales| C{37 APIs Bancarias Internas}\n  C -->|OpenTelemetry| D[Datadog Workflows]\n  C --> E[Datos de Prueba de Crédito]"
+    },
+    "reactive-banking-harness": {
+      "title": "Harnés de Pruebas de Banca Reactiva y Motor de Caos | Código Abierto",
+      "repoLink": "https://github.com/prado-x/reactive-banking-harness",
+      "stack": "Spring Boot 4.x, Java 25, Testcontainers, Contenedores Docker de WireMock, Pact Framework (Contratos del Consumidor), GitHub Actions",
+      "description": "Framework de productividad de código abierto enfocado en simular escenarios bancarios altamente resilientes y concurrentes dentro del pipeline de CI.",
+      "technicalSolution": "Aislamiento completo del entorno de pruebas utilizando instancias de WireMock dentro de contenedores de Testcontainers en GitHub Actions, eliminando fluctuaciones de red. Implementación de pruebas de contrato usando Pact Framework (Pact-JVM) para proteger la compatibilidad de las firmas de API aguas abajo. Inyección de Chaos Engineering (latencia artificial y caídas de paquetes de red mediante WireMock) para validar si los hilos virtuales centrales del sistema se autorrecuperan bajo estrés extremo de infraestructura.",
+      "mermaidChart": "graph TD\n  A[CI de GitHub Actions] --> B(Testcontainers)\n  B --> C[WireMock Docker]\n  B --> D[Pact Framework JVM]\n  C -->|Caos: Latencia/Caídas| E(Sistema Central - Hilos Virtuales)\n  D -->|Pruebas de Contrato| E\n  E -->|Autorrecuperación| F[Estado Resiliente]"
+    }
+  }
+}

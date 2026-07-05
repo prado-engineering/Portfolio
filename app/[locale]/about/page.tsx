@@ -43,7 +43,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <h3 className="text-xl font-bold text-navy-100 border-b border-navy-800/50 pb-3 text-balance font-display">
                 {t(`pillars.${pillar}.title`)}
               </h3>
-              <p className="text-sm text-navy-400 leading-relaxed font-medium flex-1">
+              <p className="text-sm text-navy-200 leading-relaxed font-medium flex-1">
                 {t(`pillars.${pillar}.content`)}
               </p>
             </article>

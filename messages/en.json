@@ -5,9 +5,9 @@
     "projects": "Projects"
   },
   "Hero": {
-    "badge": "PRINCIPAL SDET & PLATFORM ARCHITECT",
-    "headline": "Orchestrating Productivity Engineering, Quality & Enterprise GenAI",
-    "bio": "Specialized in Concurrency, Platform Engineering, and Advanced Observability. I leverage Java 21 Virtual Threads, Datadog Workflows, and Agentic AI (MCP) to safeguard software quality and architect resilient systems that accelerate from minutes to seconds.",
+    "badge": "SOFTWARE ENGINEER & QUALITY ARCHITECT",
+    "headline": "Orchestrating Development, Full-Stack Quality Engineering & GenAI",
+    "bio": "A Software Engineer and Quality Architect bridging backend, frontend, and mobile development with full-lifecycle testing maturity. I write high-performance production code, design automated testing frameworks, and build intelligent GenAI agents to optimize the developer lifecycle.",
     "metrics": {
       "coverageValue": "95%+",
       "coverageLabel": "Code Coverage Scale",
@@ -26,20 +26,20 @@
     "roles": {
       "role1": {
         "period": "2020 - Present",
-        "title": "Principal SDET & Platform Architect • Itaú Unibanco",
-        "description": "Architected high-performance platforms utilizing Java 21 Virtual Threads and Datadog Workflows. Engineered Service Virtualization layers and orchestrated enterprise GenAI (MCP) strategies for scale.",
-        "skills": "Platform Engineering • GenAI • Java 21 • AWS"
+        "title": "Software Engineer & Quality Architect • Itaú Unibanco",
+        "description": "My trajectory at Latin America's largest bank evolved from a software engineer and quality assurance role to a Software Engineer & Quality Architect, bridging code construction with testing maturity:\n\n• 2026 | Solution Hubs, Portal CRQ & SRE: Expanded the backend into a central Solution Hub and engineered the CRQ Portal (GitHub Pages integrating StackSpot AI Chatbots, QuickSight dashboards, and secure admin access). Architected \"First Responder\" workflows using Datadog and ServiceNow, automating incident triage in seconds.\n\n• 2025 | Cloud Platforms & AI Discovery: Built a cloud Full-Stack mass data platform (Java 21 Virtual Threads, Spring Boot, Angular, ECS Fargate) that parallelized requests across 30+ credit APIs, slashing latency from 5 minutes to 7 seconds. Led benchmarks for Devin.AI and Copilot Agent Mode, pushing coverage to 90%.\n\n• 2023-2024 | Observability & Shift-Left: Engineered SRE and telemetry solutions in the CRQ team. Led community-wide test marathons, boosting codebase coverage from 25% to 70%. Shipped intelligent service virtualization tools capable of auto-recovering API contracts during pipeline execution.\n\n• 2020-2022 | Engineering & Modernization: Developed and optimized software in Custody and Renegotiation squads. Contributed hands-on to the Java modernization of the legacy IOF tax calculator, migrating complex Mainframe rules into clean Java code using BigDecimal to guarantee mathematical precision.",
+        "skills": "Platform Engineering • GenAI • Java 21 • AWS • DataDog • Python • React • Quality Engineering • Software Engineering"
       },
       "role2": {
         "period": "2017 - 2020",
-        "title": "Senior Automation Architect • Wipro",
-        "description": "Designed and deployed global automation frameworks for international banking clients. Led CI/CD integrations and established end-to-end quality gates.",
-        "skills": "Automation Architecture • CI/CD • DevOps"
+        "title": "Test Automation Analyst • Wipro (Fully allocated at Bradesco Bank)",
+        "description": "Developed and scaled end-to-end (E2E) test automation frameworks for major digital banking applications (Next Bank) and investment platforms (Agora Investments), focusing on core mobile architecture and API reliability:\n\n• Mobile Automation Infrastructure: Engineered robust E2E full-stack mobile testing suites, integrating execution grids via Mobile Center to cut regression cycle times.\n\n• Multi-Layer Frameworks: Designed and maintained scalable web testing frameworks using Selenium and LeanFT paired with automated REST API validation layers via Rest-Assured.\n\n• Cross-Functional Collaboration: Acted as the technical quality bridge between development squads and business units, accelerating release cycles while maintaining an exceptionally low production defect rate.",
+        "skills": "Quality Engineering • Automation • Mobile • AWS • Development"
       },
       "role3": {
         "period": "2015 - 2017",
-        "title": "Software Development Engineer in Test • RSI / Keeggo",
-        "description": "Developed robust automated test suites for financial systems. Reduced manual regression testing times and implemented continuous testing practices.",
+        "title": "Test Automation Analyst & Intern • RSI / Keeggo",
+        "description": "Started as a technology intern and was promoted to Automation Analyst due to technical knowledge applied in projects for major clients (Santander, Rabobank, Itaú, BV, Banco Original, and Cielo):\n\n• 2017 | Automation Analyst: Developed and optimized automated data ingestion workflows using Talend ETL to ensure test data accuracy. Assisted in building web and desktop UI test scripts under strict banking security guidelines.\n\n• 2015-2016 | Technology Intern: Managed internal tools, optimizing departmental workflows.",
         "skills": "Test Engineering • Financial Systems • Agile"
       }
     }
@@ -68,15 +68,15 @@
     "groups": {
       "genai": {
         "title": "GenAI & Cutting-Edge",
-        "items": ["Anthropic MCP", "UFG GenAI", "IBM AI", "Quantum Computing"]
+        "items": ["Anthropic MCP (Advanced Topics)", "UFG Generative AI Specialist", "IBM GenAI for Business Leaders"]
       },
       "aws": {
         "title": "AWS Cloud Infrastructure",
-        "items": ["AWS EKS", "AWS Fargate", "AWS Cloud Quest"]
+        "items": ["AWS EKS (Kubernetes)", "AWS Fargate Containers", "AWS Observability Core"]
       },
       "datadog": {
         "title": "Datadog & SRE Core",
-        "items": ["Datadog Workflows", "Observability Core", "SRE Fundamentals"]
+        "items": ["Datadog Log Management", "Datadog Workflows (SRE)", "Datadog SRE Core"]
       }
     }
   },
